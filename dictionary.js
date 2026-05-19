@@ -337,6 +337,7 @@ const dictionary = [
   "machine",
   "made",
   "main",
+  "maizie",
   "make",
   "malibu",
   "man",
