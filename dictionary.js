@@ -332,6 +332,7 @@ const dictionary = [
   "long",
   "look",
   "love",
+  "loves",
   "low",
   "machine",
   "made",
