@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pentacode Translator - OMS</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="app">
+
+    <h1>Pentacode Translator - OMS</h1>
+
+    <input
+      type="text"
+      id="input"
+      placeholder="Enter numbers or words..."
+    >
+
+    <div class="buttons">
+      <button onclick="translateCode()">
+        Number → Word
+      </button>
+
+      <button onclick="reverseTranslate()">
+        Word → Number
+      </button>
+    </div>
+
+    <div id="output"></div>
+
+  </div>
+
+  <script src="dictionary.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
